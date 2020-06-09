@@ -20,18 +20,8 @@ ChestStealer:ChestStealerShow in List:true
 Swing:SwingModes:Lowswing
 Swing:SwingBlockModes:Normal
 Swing:SwingShow in List:true
-EntityESP:EntityESPIgnore nametags:true
-EntityESP:EntityESPPlayers:true
-EntityESP:EntityESPAnimals:false
-EntityESP:EntityESPMobs:false
-EntityESP:EntityESPItems:false
-EntityESP:EntityESPClient color:false
-EntityESP:EntityESPModes:Outline
-EntityESP:EntityESPWidth:3.0
-EntityESP:EntityESPAlpha:50.0
-EntityESP:EntityESPShow in List:false
 ChestESP:ChestESPHive chests:false
-ChestESP:ChestESPModes:Outline
+ChestESP:ChestESPModes:Box
 ChestESP:ChestESPClient color:true
 ChestESP:ChestESPBrightening:3.0
 ChestESP:ChestESPWidth:3.0
@@ -64,6 +54,16 @@ BlockOverlay:BlockOverlayShow in List:false
 NameProtect:NameProtectShow in List:true
 EnemyFinder:EnemyFinderUpdate delay:210.0
 EnemyFinder:EnemyFinderShow in List:true
+EntityESP:EntityESPIgnore nametags:true
+EntityESP:EntityESPPlayers:true
+EntityESP:EntityESPAnimals:false
+EntityESP:EntityESPMobs:false
+EntityESP:EntityESPItems:false
+EntityESP:EntityESPClient color:false
+EntityESP:EntityESPModes:Box
+EntityESP:EntityESPWidth:3.0
+EntityESP:EntityESPAlpha:50.0
+EntityESP:EntityESPShow in List:false
 Trajectories:TrajectoriesShow in List:true
 PotionSaver:PotionSaverShow in List:true
 Velocity:VelocityModes:NCP
@@ -71,17 +71,21 @@ Velocity:VelocityHorizontal:0.0
 Velocity:VelocityVertical:0.0
 Velocity:VelocityShow in List:true
 Scaffold:ScaffoldSprint:false
-Scaffold:ScaffoldSneak:false
+Scaffold:ScaffoldSneak:true
 Scaffold:ScaffoldSilent:true
 Scaffold:ScaffoldTimer:false
 Scaffold:ScaffoldNo swing:true
 Scaffold:ScaffoldDisplay block count:true
-Scaffold:ScaffoldDelay:0.0
+Scaffold:ScaffoldDelay:61.0
 Scaffold:ScaffoldTimer speed:6.0
 Scaffold:ScaffoldModes:AAC
 Scaffold:ScaffoldShow in List:true
 DamageHits:DamageHitsShow in List:true
 NoHurtCam:NoHurtCamShow in List:false
+AutoClicker:AutoClickerMax CPS:12.0
+AutoClicker:AutoClickerMin CPS:8.0
+AutoClicker:AutoClickerPlace:true
+AutoClicker:AutoClickerShow in List:true
 Regenerate:RegeneratePackets:1.0
 Regenerate:RegenerateRetry delay:4000.0
 Regenerate:RegenerateModes:Packet
@@ -95,6 +99,9 @@ WorldTime:WorldTimeShow in List:true
 ChestAura:ChestAuraRange:4.0
 ChestAura:ChestAuraThrough walls:false
 ChestAura:ChestAuraShow in List:true
+Fucker:FuckerModes:Egg
+Fucker:FuckerRange:4.0
+Fucker:FuckerShow in List:true
 Nametags:NametagsShow in List:true
 FullBright:FullBrightShow in List:true
 RearView:RearViewShow in List:true
@@ -102,7 +109,7 @@ CubeClip:CubeClipShow in List:true
 AutoTool:AutoToolSilent:true
 AutoTool:AutoToolShow in List:true
 Teleport:TeleportShow in List:true
-Aura:AuraAuto block:true
+Aura:AuraAuto block:false
 Aura:AuraPredict:true
 Aura:AuraAimlock:false
 Aura:AuraParticles:true
@@ -118,9 +125,9 @@ Aura:AuraFail hit:false
 Aura:AuraPlayers:true
 Aura:AuraAnimals:false
 Aura:AuraMobs:false
-Aura:AuraRange:4.7
-Aura:AuraMax CPS:20.0
-Aura:AuraMin CPS:19.0
+Aura:AuraRange:4.3
+Aura:AuraMax CPS:15.0
+Aura:AuraMin CPS:14.0
 Aura:AuraMax turn speed:180.0
 Aura:AuraMin turn speed:130.0
 Aura:AuraFOV:180.0
@@ -137,20 +144,15 @@ ClickGui:ClickGuiShow in List:true
 Tracers:TracersFeet:false
 Tracers:TracersOutlined:false
 Tracers:TracersShow in List:true
-Step:StepHeight:3.0
-Step:StepShow in List:true
-NoSlow:NoSlowStrafe factor:1.0
-NoSlow:NoSlowForward factor:1.0
-NoSlow:NoSlowPacket:true
+NoSlow:NoSlowStrafe factor:0.5
+NoSlow:NoSlowForward factor:0.5
+NoSlow:NoSlowPacket:false
 NoSlow:NoSlowShow in List:true
 Friends:FriendsCancel attacks:true
 Friends:FriendsShow in List:true
 FastUse:FastUseNot moving:false
 FastUse:FastUsePackets:1.0
 FastUse:FastUseShow in List:true
-Fucker:FuckerModes:Egg
-Fucker:FuckerRange:4.0
-Fucker:FuckerShow in List:true
 Chams:ChamsColored:false
 Chams:ChamsEntities:true
 Chams:ChamsItems:true
@@ -169,14 +171,18 @@ Tower:TowerTimer speed:2.0
 Tower:TowerModes:Cubecraft
 Tower:TowerShow in List:true
 Strafe:StrafeShow in List:true
+Reach:ReachRange:3.7
+Reach:ReachShow in List:true
 NoFall:NoFallModes:Vanilla
 NoFall:NoFallShow in List:true
 Blink:BlinkShow in List:true
+Step:StepHeight:3.0
+Step:StepShow in List:true
 HUD:HUDNotifications:true
 HUD:HUDLogo:true
 HUD:HUDInfo:true
 HUD:HUDBackground:true
-HUD:HUDKöftespieß:false
+HUD:HUDKÃ¶ftespieÃŸ:false
 HUD:HUDRainbow:true
 HUD:HUDCompass:true
 HUD:HUDMinimap:true
